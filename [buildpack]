@@ -1,0 +1,15 @@
+[buildpack]
+name = "Firdiansyah Adi Ashiddiq"
+
+  [publish.Ignore]
+  files = [
+    ".github/",
+    "spec/",
+    ".gitignore",
+    ".rspec",
+    "circle.yml",
+    "Gemfile",
+    "Gemfile.lock",
+    "Makefile",
+    "Rakefile"
+  ]
